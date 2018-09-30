@@ -662,13 +662,13 @@ div.wpcf7-response-output { margin: 20px 0 15px; }
 .column.left {
     float: left;
     width: 70%;
-	padding: 2px;
+    padding: 2px;
 }
 
 .column.right {
     float: left;
     width: 29%;
-	padding: 2px;
+    padding: 2px;
 }
 
 /* Clear floats after the columns */
@@ -679,11 +679,96 @@ div.wpcf7-response-output { margin: 20px 0 15px; }
 }
 
 .row .column h2 {
-	padding: 2px 2px 2px 15px;
+    padding: 2px 2px 2px 15px;
     color: #AA4C00;
     font-size: 15px;
     text-transform: uppercase;
     display: inherit;
     margin: 10px 0px;
     border-bottom: 1px solid #AA4C00;
+}
+
+
+footer {
+    display: block;
+}
+
+.site-footer {
+    padding: 0px 20px;
+    border-top: 1px solid #eee;
+}
+
+.site-footer .widget-area {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    height: auto;
+    display: flex;
+}
+
+.widget_text {
+    word-wrap: break-word;
+}
+
+.widget {
+    padding-bottom: 0em;
+}
+
+h2.widget-title {
+    color: #222;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 800;
+    letter-spacing: 0.1818em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    padding-top: 0;
+}
+
+.site-info {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-bottom: 1em;
+}
+
+.site-info a {
+    webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+    text-decoration: none;
+    -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
+    transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
+    transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
+    transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+    color: #666;
+}
+
+.mh-copyright-wrap {
+    margin-top: 5px;
+    position: relative;
+    clear: both;
+}
+
+@media screen and (min-width: 48em) {
+    .site-footer {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 1.6;
+    }
+    .site-footer .widget-column.footer-widget-1 {
+        float: left;
+        width: 36%;
+    }
+    .site-footer .widget-column.footer-widget-2 {
+        float: right;
+        width: 58%;
+    }
+    h2.widget-title {
+        font-size: 11px;
+        font-size: 0.6875rem;
+        margin-bottom: 2em;
+    }
+    .site-info {
+        float: left;
+        padding: 0.7em 0 0;
+        width: 58%;
+    }
 }
