@@ -25,7 +25,15 @@ table { border-collapse: collapse; border-spacing: 0; }
 /***** Structure *****/
 
 html { font-size: 100%; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; }
-body { font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; line-height: 1.6; background: #f7f7f7; word-wrap: break-word; }
+body { 
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; 
+    font-size: 0.875rem;
+    line-height: 1.6; 
+    background: #f7f7f7; 
+    background: #DDEDA2 url(images/background.jpg) center top no-repeat fixed;
+    color: #555555;
+    word-wrap: break-word; 
+}
 .mh-container, .mh-container-inner { width: 100%; max-width: 1080px; margin: 0 auto; position: relative; }
 .mh-container-outer { margin: 25px auto; -webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); -moz-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); }
 .mh-wrapper { padding: 25px; background: #fff; }
@@ -678,7 +686,8 @@ div.wpcf7-response-output { margin: 20px 0 15px; }
     clear: both;
 }
 
-.row .column h2 {
+.row .column h2,
+h2.entry-title {
     padding: 2px 2px 2px 15px;
     color: #AA4C00;
     font-size: 15px;
@@ -772,3 +781,26 @@ h2.widget-title {
         width: 58%;
     }
 }
+
+.mh-main-nav {
+    text-transform: initial;
+    border: unset;
+}
+
+div.menu li.page_item {
+    font-weight: initial;
+}
+
+.contact a:hover, 
+.contact a {
+    color: #504ef1 !important;
+}
+
+div.menu .current_page_item {
+    background-color: #436486;
+}
+
+div.menu .current_page_item:hover {
+    background-color: #e64946;
+}
+
