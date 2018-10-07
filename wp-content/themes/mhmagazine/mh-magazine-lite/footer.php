@@ -9,8 +9,8 @@
 	                    <div class="textwidget">
 	                        <p>
 	                            <strong>Địa chỉ:</strong>
-	                            <br> Thầy Loan, cổng chùa Cầu, Xã Mỹ Thái
-	                            <br> Huyện Lạng Giang, Tỉnh Bắc Giang
+	                            <br> Thầy Loan, cổng chùa Cầu, <b>Xã</b> Mỹ Thái
+	                            <br> <b>Huyện</b> Lạng Giang, <b>Tỉnh</b> Bắc Giang
 	                        </p>
 	                    </div>
 	                </section>
