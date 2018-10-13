@@ -168,7 +168,7 @@ select { max-width: 100%; }
 
 .slicknav_btn { background: #e64946; }
 .slicknav_menu { padding: 0; border-bottom: 1px solid #2a2a2a; background: #e64946; display: none; }
-.slicknav_menu .slicknav_menutxt { text-shadow: none; display: none; }
+/*.slicknav_menu .slicknav_menutxt { text-shadow: none; display: none; }*/
 .slicknav_menu .slicknav_icon-bar { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
 .slicknav_nav { font-size: 16px; font-size: 1rem; font-weight: 600; margin-bottom: 20px; }
 .slicknav_nav ul { padding: 20px 0 0 15px; margin: 0; border-top: 1px solid #2a2a2a; }
@@ -666,6 +666,11 @@ div.wpcf7-response-output { margin: 20px 0 15px; }
 	#mh-mobile .mh-posts-stacked-title { font-size: 16px; padding: 2px 5px; }
 }
 
+/* main navigation */
+.slicknav_menu .menu li:hover {
+    background: #e64946;
+}
+
 /* 2 column setting */
 .column.left {
     float: left;
@@ -709,9 +714,19 @@ footer {
 
 .site-footer .widget-area {
     padding-bottom: 2em;
-    padding-top: 2em;
+    padding-top: 10px;
     height: auto;
     display: flex;
+}
+
+h2.contact-footer {
+    color: #222;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 800;
+    letter-spacing: 0.1818em;
+    text-transform: uppercase;
+    margin-top: 15px;
 }
 
 .widget_text {
@@ -780,6 +795,11 @@ h2.widget-title {
         padding: 0.7em 0 0;
         width: 58%;
     }
+}
+
+.site-footer .widget-column {
+	width: 44%;
+	padding: 10px;
 }
 
 .mh-main-nav {
