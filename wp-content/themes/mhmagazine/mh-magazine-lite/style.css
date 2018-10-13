@@ -804,3 +804,48 @@ div.menu .current_page_item:hover {
     background-color: #e64946;
 }
 
+.dynamic_sidebar {
+    float: right;
+    background-color: #fff;
+    width: 100%;
+}
+
+.dynamic_sidebar .widget-dynamic-sidebar {
+    display: none;
+}
+
+.dynamic_sidebar ul {
+    float: right;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+/*Create a horizontal list with spacing*/
+.dynamic_sidebar li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+
+.dynamic_sidebar li a {
+    display:block;
+    min-width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+.dynamic_sidebar li:hover a {
+    background: #19c589;
+}
+/*Style for dropdown links*/
+.dynamic_sidebar li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}

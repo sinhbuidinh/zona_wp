@@ -527,7 +527,7 @@ function wp_register( $before = '<li>', $after = '</li>', $echo = true ) {
 			$link = $before . '<a href="' . esc_url( wp_registration_url() ) . '">' . __('Register') . '</a>' . $after;
 		else
 			$link = '';
-	} elseif ( current_user_can( 'read' ) ) {
+	} elseif ( current_user_can( 'read' ) && is_admin() ) {
 		$link = $before . '<a href="' . admin_url() . '">' . __('Site Admin') . '</a>' . $after;
 	} else {
 		$link = '';
