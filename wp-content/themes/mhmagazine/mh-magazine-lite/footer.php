@@ -1,5 +1,4 @@
 <?php mh_before_footer(); ?>
-<?php mh_magazine_lite_footer_widgets(); ?>
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="wrap">
 		<aside class="widget-area" role="complementary" aria-label="Footer">
